@@ -93,18 +93,18 @@ INSERT INTO STUDENT_PROJECT (StudentID, ProjectID)VALUES (101, 201);
 SQL> INSERT INTO STUDENT_PROJECT (StudentID, ProjectID)VALUES (102, 202);
 
 
---UPDATE AND DELETING DATA 
+--UPDATE AND DELETING DATA: 
 --update:
 
  UPDATE STUDENT SET Email = 'jalice@yahoo.com' WHERE StudentID = 101;
 
- --delete
+ --delete:
  --creating a table to then delete its rows:
 
  CREATE TABLE Employees (EmployeeID INT primary key,EMPAGE INT);
  delete from Employees;
 
- --ALTER AND DROP 
+ --ALTER AND DROP: 
  --alter:
  
   ALTER TABLE TEACHER ADD AGE INT NULL;
